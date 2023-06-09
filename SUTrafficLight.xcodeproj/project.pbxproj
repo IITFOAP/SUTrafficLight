@@ -11,6 +11,7 @@
 		2C08D1C62A3252D40091608F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08D1C52A3252D40091608F /* ContentView.swift */; };
 		2C08D1C82A3252D50091608F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C08D1C72A3252D50091608F /* Assets.xcassets */; };
 		2C08D1CB2A3252D50091608F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C08D1CA2A3252D50091608F /* Preview Assets.xcassets */; };
+		2C08D1D22A3253020091608F /* СircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08D1D12A3253020091608F /* СircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2C08D1C52A3252D40091608F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C08D1C72A3252D50091608F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C08D1CA2A3252D50091608F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C08D1D12A3253020091608F /* СircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СircleView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2C08D1C32A3252D40091608F /* SUTrafficLightApp.swift */,
 				2C08D1C52A3252D40091608F /* ContentView.swift */,
+				2C08D1D12A3253020091608F /* СircleView.swift */,
 				2C08D1C72A3252D50091608F /* Assets.xcassets */,
 				2C08D1C92A3252D50091608F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C08D1C62A3252D40091608F /* ContentView.swift in Sources */,
+				2C08D1D22A3253020091608F /* СircleView.swift in Sources */,
 				2C08D1C42A3252D40091608F /* SUTrafficLightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
