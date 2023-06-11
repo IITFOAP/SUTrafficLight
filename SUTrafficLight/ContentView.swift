@@ -24,24 +24,7 @@ struct ContentView: View {
             
             Spacer()
             
-            Button {
-                hasStarted = false
-                
-                switch colorForComparison {
-                case .red:
-                    greenOpacity = 0.5
-                    redOpacity = 1
-                    colorForComparison = .yellow
-                case .yellow:
-                    redOpacity = 0.5
-                    yellowOpacity = 1
-                    colorForComparison = .green
-                case .green:
-                    yellowOpacity = 0.5
-                    greenOpacity = 1
-                    colorForComparison = .red
-                }
-            } label: {
+            Button(action: changesColor) {
                 Capsule()
                     .foregroundColor(.blue)
                     .frame(width: 150, height: 50)
@@ -56,6 +39,25 @@ struct ContentView: View {
         }
         
         .padding()
+    }
+    
+    private func changesColor() {
+        hasStarted = false
+        
+        switch colorForComparison {
+        case .red:
+            greenOpacity = 0.5
+            redOpacity = 1
+            colorForComparison = .yellow
+        case .yellow:
+            redOpacity = 0.5
+            yellowOpacity = 1
+            colorForComparison = .green
+        case .green:
+            yellowOpacity = 0.5
+            greenOpacity = 1
+            colorForComparison = .red
+        }
     }
 }
 
